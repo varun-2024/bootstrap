@@ -8,140 +8,197 @@
     
     <title>BootStrap Learning</title>
 </head>
-<body>
-    <nav class="navbar bg-body-tertiary bg-primary sticky-top navbar-expand-md" data-bs-theme="dark">
-      <div class="container-fluid">
-          <a href="#" class="navbar-brand">Navbar</a>
-          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="">Home</a>
-            <a class="nav-link" href="">Menu</a>
-            <a class="nav-link" href="">About Us</a>
-            <a class="nav-link" href="">Details</a>
-            <a class="nav-link" href="">Contact</a>
+
+      <body>
+        <!-- Navbar with Colapsable function at smaller screen size -->  
+        <nav class="navbar bg-body-tertiary bg-primary sticky-top navbar-expand-md" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">Navbar</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="">Home</a>
+                  <a class="nav-link" href="">Menu</a>
+                  <a class="nav-link" href="">About Us</a>
+                  <a class="nav-link" href="">Details</a>
+                  <a class="nav-link" href="">Contact</a>
+                </div>
+            </div>
+            
+            <!-- Search Form in Nav -->
+            <form action="" class="d-flex">
+              <input type="search" class="form-control me-2" placeholder="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
           </div>
-      </div>
-      <form action="" class="d-flex">
-        <input type="search" class="form-control me-2" placeholder="Search">
-        <button class="btn btn-outline-light" type="submit">Search</button>
-    </form>
-     </div>
+          </nav>
         
-      
-    </nav>
-  
-  
-  <div class="container-lg">
-        <h2>Boot Strap Demo<span class="badge rounded-pill bg-danger">10+</span></h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime placeat soluta et. Non atque tempore maiores corporis laudantium minus. Distinctio cum accusamus voluptates ducimus aspernatur rerum minus repellendus. Eos, beatae.
-        Ducimus labore deleniti ipsum omnis consectetur nihil nam. Magnam velit fugit cum sapiente fuga ratione excepturi doloremque saepe officiis. Exercitationem natus maiores consequuntur harum esse cupiditate voluptas dolorem ullam aliquam?
-        Veniam animi deleniti sint fugiat amet provident, ad fuga necessitatibus nobis voluptas dignissimos mollitia! Dolorum harum illum quisquam accusantium mollitia, necessitatibus aperiam, dignissimos labore blanditiis fuga pariatur doloremque magni aspernatur.
-        Quia, quis non voluptates consectetur, ipsum, ut voluptatum eos dolore illum optio libero id ab ipsa voluptate placeat? Neque voluptatum perferendis aut hic numquam maxime ab eveniet ad quam. Deserunt.
-        Doloremque possimus, laborum quis ab ut pariatur odit accusantium soluta! Exercitationem, numquam suscipit. Laboriosam quam ipsum harum voluptatum facere suscipit atque quas itaque tempora ea, cumque voluptatem quibusdam alias! Quaerat.</p>
-        <div class="btn-group">
-        <button type="button" class="btn btn-primary">Primary</button>
-        <button type="button" class="btn btn-secondary">Secondary</button>
-        <button type="button" class="btn btn-success">Success</button>
-        <button type="button" class="btn btn-danger">Danger</button>
-        <button type="button" class="btn btn-warning">Warning</button>
-        <button type="button" class="btn btn-light">Light</button>
-        <button type="button" class="btn btn-dark">Dark</button>
-        <button type="button" class="btn btn-dark btn-sm">Dark</button>
-        <a href="#" class="btn btn-danger btn-lg">Click Me</a>
-        <input class="btn btn-outline-danger" type="submit" value="Click to Submit" disabled>
-      </div>
-            
-        <div class="d-grid gap-2">
-        <a href="#" class="btn btn-primary disabled" tabindex="-1" role="button" aria-disabled="true">Primary link</a>
-        <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">Link</a>
-        </div>
         
-        <button type="button" class="btn btn-primary position-relative">
-            Inbox
-            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-              99+
-              <span class="visually-hidden">unread messages</span>
-            </span>
-          </button>
-
-          <button type="button" class="btn btn-primary">
-            New Button
-          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-            101
-            <span class="visually-hidden">unread messages</span>
-          </span>
-        </button>
-        <div class="alert alert-danger" role="alert">
-          This is Dangerous !!!
-        </div>
-        <div class="alert alert-success" role="alert">
-          This is Successful !!!
-        </div>
-
-        <div id="liveAlertPlaceholder"></div>
-        <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
-
-        
-        <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-        <label class="btn btn-outline-danger" for="btncheck1">Hello</label>
-
-      <div class="container">
-           <div class="row">
-
-            <div class="col-sm-6 col-md-4">
+        <div class="container-lg">
+              <h2>Boot Strap Demo<span class="badge rounded-pill bg-danger">10+</span></h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime placeat soluta et. Non atque tempore maiores corporis laudantium minus. Distinctio cum accusamus voluptates ducimus aspernatur rerum minus repellendus. Eos, beatae.
+              Ducimus labore deleniti ipsum omnis consectetur nihil nam. Magnam velit fugit cum sapiente fuga ratione excepturi doloremque saepe officiis. Exercitationem natus maiores consequuntur harum esse cupiditate voluptas dolorem ullam aliquam?
+              Veniam animi deleniti sint fugiat amet provident, ad fuga necessitatibus nobis voluptas dignissimos mollitia! Dolorum harum illum quisquam accusantium mollitia, necessitatibus aperiam, dignissimos labore blanditiis fuga pariatur doloremque magni aspernatur.
+              Quia, quis non voluptates consectetur, ipsum, ut voluptatum eos dolore illum optio libero id ab ipsa voluptate placeat? Neque voluptatum perferendis aut hic numquam maxime ab eveniet ad quam. Deserunt.
+              Doloremque possimus, laborum quis ab ut pariatur odit accusantium soluta! Exercitationem, numquam suscipit. Laboriosam quam ipsum harum voluptatum facere suscipit atque quas itaque tempora ea, cumque voluptatem quibusdam alias! Quaerat.</p>
               
-              <div class="card" >
-                <img class="card-img-top" src="/1.jpg" alt="Image" />
-                <div class="card-body">
-                  
-                  <h5 class="card-title">Meet Jerry</h5>
-                  <h6 class="card-subtitle mb-2 text-bodysecondry">Friendly and Amiable</h6>
-                  <p class="card-text">This pet is up for adoption</p>
-                  <a href="#" class="btn btn-dark">Click here to Adopt</a>
-                
-                </div>
-              </div>
+              <!-- Button Group and multiple Styles -->
+              <div class="btn-group">
+              <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-secondary">Secondary</button>
+              <button type="button" class="btn btn-success">Success</button>
+              <button type="button" class="btn btn-danger">Danger</button>
+              <button type="button" class="btn btn-warning">Warning</button>
+              <button type="button" class="btn btn-light">Light</button>
+              <button type="button" class="btn btn-dark">Dark</button>
+              <button type="button" class="btn btn-dark btn-sm">Dark</button>
+              <a href="#" class="btn btn-danger btn-lg">Click Me</a>
+              <input class="btn btn-outline-danger" type="submit" value="Click to Submit" disabled>
             </div>
-            
-           
-            <div class="col-sm-6 col-md-4"> 
-              <div class="card" >
-                <img class="card-img-top" src="/1.jpg" alt="Image" />
-                <div class="card-body">
                   
-                  <h5 class="card-title">Meet Jerry</h5>
-                  <h6 class="card-subtitle mb-2 text-bodysecondry">Friendly and Amiable</h6>
-                  <p class="card-text">This pet is up for adoption</p>
-                  <a href="#" class="btn btn-dark">Click here to Adopt</a>
-                
-                </div>
+            <!-- Disabled Button with full block width -->  
+            <div class="d-grid gap-2">
+              <a href="#" class="btn btn-primary disabled" tabindex="-1" role="button" aria-disabled="true">Primary link</a>
+              <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">Link</a>
               </div>
-            </div>
-            
-            
-            <div class="col-sm-6 col-md-4">
-              <div class="card">
-                <img class="card-img-top" src="/1.jpg" alt="Image" />
-                <div class="card-body">
-                  
-                  <h5 class="card-title">Meet Jerry</h5>
-                  <h6 class="card-subtitle mb-2 text-bodysecondry">Friendly and Amiable</h6>
-                  <p class="card-text">This pet is up for adoption</p>
-                  <a href="#" class="btn btn-dark">Click here to Adopt</a>
-                
-                </div>
-              </div>
-            </div>
-           </div>
-      </div>
-    </div>
-  </div>
-</div>
+              
+              
+              <!-- Button with Pill -->              
+              <button type="button" class="btn btn-primary position-relative">
+                  Inbox
+                  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    99+
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+                </button>
 
-    
+                <!-- Button with Pill Trying Positions works when position relative given on parent in this case the Button and absolute on the pill-->
+                <button type="button" class="btn btn-primary position-relative">
+                  New Button
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  101
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              
+                <!-- Alerts in Bootstrap -->
+              </button>
+              <div class="alert alert-danger" role="alert">
+                This is Dangerous !!!
+              </div>
+              <div class="alert alert-success" role="alert">
+                This is Successful !!!
+              </div>
+
+              <!-- Live Alert Button and Dissmiss -->
+              <div id="liveAlertPlaceholder"></div>
+              <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+
+              <!-- Button Checkbox -->
+              <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+              <label class="btn btn-outline-danger" for="btncheck1">Hello</label>
+
+              <!-- Card Container -->
+            <div class="container">
+                <div class="row">
+
+                  <div class="col-sm-6 col-md-4">
+                    
+                    <div class="card" >
+                      <img class="card-img-top" src="/1.jpg" alt="Image" />
+                      <div class="card-body">
+                        
+                        <h5 class="card-title">Meet Jerry</h5>
+                        <h6 class="card-subtitle mb-2 text-bodysecondry">Friendly and Amiable</h6>
+                        <p class="card-text">This pet is up for adoption</p>
+                        <a href="#" class="btn btn-dark">Click here to Adopt</a>
+                      
+                      </div>
+                    </div>
+                  </div>
+                  
+                
+                  <div class="col-sm-6 col-md-4"> 
+                    <div class="card" >
+                      <img class="card-img-top" src="/1.jpg" alt="Image" />
+                      <div class="card-body">
+                        
+                        <h5 class="card-title">Meet Jerry</h5>
+                        <h6 class="card-subtitle mb-2 text-bodysecondry">Friendly and Amiable</h6>
+                        <p class="card-text">This pet is up for adoption</p>
+                        <a href="#" class="btn btn-dark">Click here to Adopt</a>
+                      
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+                  <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                      <img class="card-img-top" src="/1.jpg" alt="Image" />
+                      <div class="card-body">
+                        
+                        <h5 class="card-title">Meet Jerry</h5>
+                        <h6 class="card-subtitle mb-2 text-bodysecondry">Friendly and Amiable</h6>
+                        <p class="card-text">This pet is up for adoption</p>
+                        <a href="#" class="btn btn-dark">Click here to Adopt</a>
+                      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+  
+            <!-- Form Bubmit -->     
+            <form action="submit">
+              
+                <div class="mb-3">        
+                  <label for="email" class="form-label">Email</label>
+                  <input type="text"class="form-control" placeholder="Email" id="email">
+                  </div>
+
+                  <div class="mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input type="password"class="form-control" placeholder="Password" id="password">
+                  </div>
+                  
+                  <div class="mb-3">
+                  <label for="address" class="form-label">Address</label>
+                  <input type="text"class="form-control" placeholder="Address" id="address">
+               </div>
+
+               <!-- Options Drowpdown -->
+              <div class="mb-3">
+                <select class="form-select">
+                  <option selected>Select City</option>
+                  <option value="1">Delhi</option>
+                  <option value="2">Mumbai</option>
+                  <option value="3">Banglore</option>
+                </select>
+              </div>
+
+              <!-- Check Box -->
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="agree">
+                <label class="form-check-label" for="agree">Agree</label>
+              </div>
+
+              <!-- Radio Button -->
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="radio" id="radio">
+                <label class="form-check-label" for="radio">Radio</label>
+              </div>
+        
+            </form>
+            
+              
+          </div>
+          
+       
+      
+
+  
 
 
     <button type="button" class="button">Click me normal button</button>
