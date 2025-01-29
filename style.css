@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container, .container-lg{
+    background-color: cornflowerblue;
+}
+.button{
+    background-color: chartreuse;
+    margin: 60px;
+    padding: 5px;
+    width: 80px;
+    border-radius: 6px;
+}
+
+.button:hover{
+    background-color: rgb(0, 255, 68);
+    border: 2px solid red;
+}
+
+.btn:hover{
+    border: 2px solid red;
+}
