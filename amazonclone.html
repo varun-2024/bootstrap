@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Clone</title>
+  <link rel="stylesheet" href="/style3.css">
+</head>
+<body>
+  <header>
+    <h1>Amazon Clone</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="products">
+      <h2>Products</h2>
+      <div class="product-list">
+        <!-- Product items will be dynamically added here -->
+      </div>
+    </section>
+
+    <section id="cart" class="hidden">
+      <h2>Shopping Cart</h2>
+      <div class="cart-items">
+        <!-- Cart items will be dynamically added here -->
+      </div>
+      <p>Total: $<span id="cart-total">0.00</span></p>
+      <button id="checkout-btn">Proceed to Checkout</button>
+    </section>
+
+    <section id="checkout" class="hidden">
+      <h2>Checkout</h2>
+      <form id="payment-form">
+        <label for="card-number">Card Number:</label>
+        <input type="text" id="card-number" placeholder="1234 5678 9012 3456" required>
+        
+        <label for="expiry-date">Expiry Date:</label>
+        <input type="text" id="expiry-date" placeholder="MM/YY" required>
+        
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" placeholder="123" required>
+        
+        <button type="submit">Pay Now</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Amazon Clone</p>
+  </footer>
+
+  <script src="script2.js"></script>
+</body>
+</html>
